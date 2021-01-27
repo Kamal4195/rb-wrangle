@@ -1,9 +1,13 @@
 # rb-wrangle
 
-## Assigned Play : [As You Like It](http://shakespeare.mit.edu/asyoulikeit/full.html)
-## Speaker 1: Orlando
-## Speaker 2: Oliver
-## Question: How speaks More?
+## Assigned Play 
+[As You Like It](http://shakespeare.mit.edu/asyoulikeit/full.html)
+## Speaker 1
+Orlando
+## Speaker 2
+Oliver
+## Question
+Who speaks More?
 ## Commands Used
 - ```$ curl "http://shakespeare.mit.edu/asyoulikeit/full.html" -o input.txt``` - Used to get input text from web.
 - ```$ curl "http://shakespeare.mit.edu/asyoulikeit/full.html" | sed 's/<\/*[^>]*>//g' > rb.txt``` - used to apply regular expression on my text.
